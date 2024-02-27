@@ -105,6 +105,7 @@ pipeline {
         always { 
 
             echo 'I will always run'
+            echo " we running central library jenkins "
             deleteDir()
         }
         failure{
